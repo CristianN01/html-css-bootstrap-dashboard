@@ -1,0 +1,33 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.my_size{
+    font-size: 6px;
+}
+
+
+.side-bar{
+    width: 50px;
+    background-color: #051e34;
+    height: 100%;
+}
+
+.big_container{
+    height: 100vh;
+}
+
+.main{
+    width: calc(100vw - 50px);
+}
+
+.bg_secondary{
+    background-color: #165bba ;
+
+}
+
+.bg_blue{
+    background-color: #1b72e8;
+}
