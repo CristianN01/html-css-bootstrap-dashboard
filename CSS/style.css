@@ -4,13 +4,24 @@
     font-style: normal;
 }
 
+.my_margin{
+    margin-bottom: 1.5rem;
+}
+
 .my_size{
     font-size: 6px;
 }
 
+.header{
+    padding-top: 5rem;
+}
 
 .side-bar{
-    width: 50px;
+    padding-top: 5rem;
+}
+
+.side-bar{
+    width: 60px;
     background-color: #051e34;
     height: 100%;
 }
@@ -21,6 +32,7 @@
 
 .main{
     width: calc(100vw - 50px);
+    height: 100vh;
 }
 
 .bg_secondary{
@@ -31,3 +43,22 @@
 .bg_blue{
     background-color: #1b72e8;
 }
+
+.color_grey{
+    color: #6d767e;
+}
+
+.border_grey{
+    border-color: #868d94;
+}
+
+.img_size{
+    width: 30px;
+    margin-right: 0.5rem;
+}
+
+.bg_color_h2{
+    background-color: #f7f7f7;
+}
+
+
