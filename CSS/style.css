@@ -64,3 +64,9 @@
 .my_width{
     width: 30%;
 }
+.my_img_logo{
+    max-width: 40px;
+}
+.my_color_yellow{
+    color: #ff8f00;
+}
