@@ -13,7 +13,7 @@
 }
 
 .header{
-    padding-top: 5rem;
+    margin-top: 56px;
 }
 
 .side-bar{
@@ -31,7 +31,7 @@
 }
 
 .main{
-    width: calc(100vw - 50px);
+    width: calc(100vw - 60px);
     height: 100vh;
 }
 
