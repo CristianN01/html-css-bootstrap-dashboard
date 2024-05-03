@@ -31,38 +31,40 @@
                     </div>
                 </nav>
                 <!-- INFORMAZIONI -->
-                <div class="header px-3 bg_blue">
-                    <div class="row text-white">
-                        <div class="col-sm-12 col-md-4 order-md-last d-flex align-items-baseline mb-2">
-                            <h5 class="pe-3">Nuovo Studente</h5>
-                            <button class="btn btn-outline-light align-self-baseline" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                <div class="header bg_blue">
+                    <div class="container">
+                        <div class="row text-white">
+                            <div class="col-sm-12 col-md-4 order-md-last d-flex align-items-baseline mb-2">
+                                <h5 class="pe-3">Nuovo Studente</h5>
+                                <button class="btn btn-outline-light align-self-baseline" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
-                            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight"  aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                ...
+                                <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight"  aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                    ...
+                                    </div>
                                 </div>
                             </div>
+                            <div class="col-sm-6 col-md-4 order-md-first mb-2">
+                                <h3 class="">Boolean<span class="badge rounded-pill bg_secondary">Piano blaze</span><span class="badge rounded-pill bg_secondary">3 app</span><span></span>>><span class="badge rounded-pill bg_secondary">+</span>
+                            </h3>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mb-2">
+                                <p>Studenti online negli ultimi 30 minuti</p>
+                                <span class="fs-2">125</span>
+                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 order-md-first mb-2">
-                            <h3 class="">Boolean<span class="badge rounded-pill bg_secondary">Piano blaze</span><span class="badge rounded-pill bg_secondary">3 app</span><span></span>>><span class="badge rounded-pill bg_secondary">+</span>
-                        </h3>
-                        </div>
-                        <div class="col-sm-12 col-md-4 mb-2">
-                            <p>Studenti online negli ultimi 30 minuti</p>
-                            <span class="fs-2">125</span>
-                        </div>
-
                     </div>
                 </div>
                 <!-- Prossime Classi -->
-                <section class="classi mx-4 my-4">
+                <section class="classi">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-8 border rounded-bottom my_margin order-0">
-                                <h2 class="border border-bottom-0 m-0 py-2 rounded-top bg_color_h2">Prossime classi</h2>
+                            <div class="col-12 col-md-12 col-lg-8 order-lg-0">
+                                <h2 class="border border-bottom-0 m-0 py-2 mt-3 rounded-top bg_color_h2">Prossime classi</h2>
 
                                 <table class="table">
                                     <thead>
@@ -123,8 +125,8 @@
                                     </table>
                             </div>
 
-                            <div class="col-sm-12 col-md-12 col-lg-8 border rounded-bottom my_margin order-2">
-                                <h2 class="border border-bottom-0 m-0 py-2 rounded-top bg_color_h2">F.A.Q</h2>
+                            <div class="col-12 col-md-12 col-lg-8 order-lg-2 order-sm-1">
+                                <h2 class="border border-bottom-0 m-0 py-2 mt-3 rounded-top bg_color_h2">F.A.Q</h2>
                                 <div class="accordion accordion-flush" id="accordionFlushExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="flush-headingOne">
@@ -165,11 +167,11 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm-12 col-md-12 col-lg-4 border rounded-bottom py-3 order-1">
-                                <h2 class="border border-bottom-0 m-0 py-2 rounded-top bg_color_h2">Todo</h2>
+                            <div class="col-12 col-md-12 col-lg-4 order-lg-1 order-sm-2">
+                                <h2 class="border border-bottom-0 m-0 py-2 mt-3 rounded-top bg_color_h2">Todo</h2>
 
                                 <ul class="list-group">
-                                    <li class="list-group-item">
+                                    <li class="list-group-item rounded-0">
                                         <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
                                         First checkbox
                                     </li>
@@ -184,9 +186,9 @@
                                 </ul>
                             </div>
 
-                            <div class="col-sm-12 col-md-12 col-lg-4 border rounded-bottom py-3
+                            <div class="col-12 col-md-12 col-lg-4 
                             order-3">
-                                <div class="card" style=";">
+                                <div class="card my-3" style=";">
                                     <img src="..." class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
@@ -204,6 +206,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
 
             </section>
