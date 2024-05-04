@@ -17,12 +17,21 @@
         <header>
             <section class="side-bar d-flex flex-column justify-content-between">
                 <div class="home-stats-signal ">
-                    <i class="fa-solid fa-house my_color_white ps-3 pe-3 mb-3"></i><span class="my_color_white  d-none d-lg-inline">Home</span>
-                    <i class="fa-solid fa-chart-simple ps-3 pe-3 my_color_white  mb-3"></i><span class="my_color_white  d-none d-lg-inline">Stats</span>
-                    <i class="fa-solid fa-signal ps-3 pe-3 my_color_white  mb-3"></i><span class="my_color_white  d-none d-lg-inline"><span>Signals</span>
+                    <div class="mx-3 mb-3">
+                        <i class="fa-solid fa-house  pe-3 my_color_white  "></i><span class="my_color_white  d-none d-lg-inline">Home</span>
+                    </div>
+                    <div class="mx-3 mb-3">
+                        <i class="fa-solid fa-chart-simple  pe-3 my_color_white  "></i><span class="my_color_white  d-none d-lg-inline">Stats</span>
+                    </div>
+                    <div class="mx-3 mb-3">
+                        <i class="fa-solid fa-signal  pe-2 my_color_white  "></i><span class="my_color_white  d-none d-lg-inline">Signals</span>
+                    </div>
+                    
                 </div>
                 <div class="options">
-                    <i class="fa-solid fa-gear ps-3 pe-3 my_color_white  mb-3"></i><span class="my_color_white  d-none d-lg-inline"></i>Admin</span>
+                    <div class="mx-3 mb-3">
+                        <i class="fa-solid fa-gear  pe-3 my_color_white  "></i><span class="my_color_white  d-none d-lg-inline">Admin</span>
+                    </div>
                 </div>
             </section>
         </header>
@@ -57,27 +66,35 @@
                         <div class="row text-white justify-content-between">
                             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-3 col-xxl-3 order-md-last d-flex align-items-baseline justify-content-lg-center mb-2">
                                 <h5 class="pe-3 ps-lg-5">Nuovo Studente</h5>
-                                <!-- <button class="btn btn-outline-light align-self-baseline" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i>
-                                </button> -->
-                                
 
                                 <a class="btn btn-outline-light align-self-baseline" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                     <i class="fa-solid fa-plus"></i>
                                 </a>
-
-                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                                    Button with data-bs-target
-                                </button> -->
                                 
 
-                                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
                                         <div>
-                                            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                                            <form>
+                                                <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                </div>
+                                                <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
                                         </div>
                                         <div class="dropdown mt-3">
                                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
