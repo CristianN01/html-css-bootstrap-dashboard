@@ -74,37 +74,93 @@
 
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                        <p class="offcanvas-title text-black fs-5" id="offcanvasExampleLabel">Inserisci un nuovo studente</p>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
                                         <div>
                                             <form>
-                                                <div class="mb-3">
-                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                <div class="row text-black">
+                                                    <div class="col-6 col-xs-12">
+                                                        <div class="mb-3  ">
+                                                            <label for="exampleInputEmail1" class="form-label">Nome</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                                                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                                                            <div class="input-group mb-3">
+                                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                                <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                                                            </div>
+                                                            
+
+                                                            <label for="exampleInputEmail1" class="form-label">Indirizzo Email</label>
+                                                            <div class="input-group mb-3">
+                                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                                <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                                                            </div>
+                                                        </div>    
+                                                    </div>
+                                                    
+                                                    <div class="col-6 col-xs-12">
+                                                        <div class="mb-3 ">
+                                                            <label for="exampleInputEmail1" class="form-label">Cognome</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                                                            <label for="exampleInputEmail1" class="form-label">Password</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            
+
+                                                            <label for="exampleInputEmail1" class="form-label">Password</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div> 
+                                                    </div>
+                                                        
+                                                    <div class="col-12 col-xs-12">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-6 col-xs-12">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Città</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4 col-xs-12">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Stato</label>
+                                                            <select class="form-select" id="inputGroupSelect01">
+                                                                <option selected>Scegli...</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 col-xs-12">
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">CAP</label>
+                                                            <input type="email" class="form-control me-2 mb-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-xs-4">
+                                                        <div class="input-group mb-3">
+                                                            <label class="input-group-text" for="inputGroupSelect01">Scegli file</label>
+                                                            <input  class="form-control" id="inputGroupFile02">
+                                                        </div>
+                                                        
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
-                                                <div class="mb-3">
-                                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1">
-                                                </div>
-                                                <div class="mb-3 form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                                </div>
-                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <button type="submit" class="btn btn-primary">Salva</button>
+                                                <button type="submit" class="btn btn-warning">Svuota</button>
                                             </form>
-                                        </div>
-                                        <div class="dropdown mt-3">
-                                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                                Dropdown button
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -130,75 +186,75 @@
                                         <table class="table table-hover">
                                             <thead>
                                                 <tr>
-                                                    <th scope="col">Nome</th>
-                                                    <th class="d-none d-md-table-cell text-center " scope="col">Data inizio</th>
-                                                    <th class="d-none d-md-table-cell text-center " scope="col">ROI</th>
-                                                    <th class="text-center " scope="col">Stato</th>
-                                                    <th class="text-center " scope="col">Azioni</th>
+                                                    <th class="w-auto" scope="col">Nome</th>
+                                                    <th class="d-none d-md-table-cell my_cellwidth text-center" scope="col">Data inizio</th>
+                                                    <th class="d-none d-md-table-cell my_cellwidth text-center" scope="col">ROI</th>
+                                                    <th class="my_cellwidth text-center" scope="col">Stato</th>
+                                                    <th class="my_cellwidth text-center" scope="col">Azioni</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 75</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>15 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-success ">Done</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey "></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>15 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-success ">Done</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey "></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 76</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>16 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-success ">Done</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>16 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-success ">Done</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                     
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 77</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>17 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-warning ">process</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>17 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-warning ">process</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                     
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 78</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>18 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-success">Done</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>18 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-success">Done</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                     
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 79</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>19 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-danger">failed</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>19 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-danger">failed</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                     
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 80</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-success">Done</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-success">Done</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                     
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 81</td>
-                                                    <td class="d-none d-md-table-cell text-center ">21 Feb 2021</td>
-                                                    <td class="d-none d-md-table-cell text-center ">20%</td>
-                                                    <td class="text-center "><span class="badge bg-danger">failed</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center">21 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center">20%</td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-danger">failed</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                     
                                                 </tr>
                                                 <tr>
                                                     <td><img class="img_size" src="./img/class-avatar.jpg" alt="avatar"> Classe 82</td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>22 Feb 2021</span></td>
-                                                    <td class="d-none d-md-table-cell text-center "><span>20%</span></td>
-                                                    <td class="text-center "><span class="badge bg-success">Done</span></td>
-                                                    <td class="text-center "><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>22 Feb 2021</span></td>
+                                                    <td class="d-none d-md-table-cell my_cellwidth text-center"><span>20%</span></td>
+                                                    <td class="my_cellwidth text-center"><span class="badge bg-success">Done</span></td>
+                                                    <td class="my_cellwidth text-center"><button class="btn border border_grey me-2"><i class="fa-solid fa-pencil color_grey"></i></button><button class="btn border border_grey"><i class="fa-solid fa-trash color_grey"></i></button></td>
                                                 </tr>
                                             </tbody>
                                             </table>
